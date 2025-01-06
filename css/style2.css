@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.sidebar {
+    background-color: #2b2b2b;
+    color: white;
+    height: 100vh;
+    padding-top: 20px;
+    position: fixed;
+    width: 250px;
+    top: 0;
+    left: 0;
+}
+
+.sidebar .profile {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.sidebar .profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.sidebar .nav-links .nav-link {
+    color: white;
+    font-size: 18px;
+    padding: 10px 0;
+}
+
+.sidebar .nav-links .nav-link:hover{
+    background-color: #414040; 
+    color: #ffffff; 
+    padding-left: 10px; 
+    transition: all 0.5s ease; 
+    border-radius: 10px;
+} 
+
+.nav-links .active {
+    background-color:  #414040; 
+    color: white; 
+    padding-left: 10px; 
+    border-radius: 5px; 
+}
+
+.head-content {
+    margin-left: 250px;
+    padding: 20px;
+   
+}
+
+.search-bar{
+    background: linear-gradient(135deg, #f3f4ff, #e0e7ff);
+    padding: 20px 0px 20px 0px;
+}
+
+.stu-name{
+    color: #ddd8d8;
+}
+
+#dataTable {
+    width: 100%;
+    table-layout: auto;
+    border-collapse: collapse;
+}
+
+#dataTable th{
+    padding: 5px;
+    border: 1px solid #ddd;
+    text-align: center;
+    white-space: nowrap;
+}
+
+#dataTable td {
+    padding: 5px;
+    border: 1px solid #ddd;
+    text-align: left;
+    white-space: nowrap;
+}
+
+#dataTable th {
+    background-color: #f2f2f2;
+    font-size: 12px;
+}
+
+.edit-button, .delete-button, .save-button {
+    padding: 5px 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.edit-button {
+    background-color: #4CAF50;
+}
+
+.delete-button {
+    background-color: #ff4d4d;
+}
+
+.save-button {
+    background-color: #008CBA;
+}
